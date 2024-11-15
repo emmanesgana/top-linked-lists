@@ -32,7 +32,7 @@ Adding a new element:
 import { Node } from "./Node.js";
 
 // Create a LinkedList class
-class LinkedList {
+export class LinkedList {
     // Create a constructor that consists ot headNode that has a default value of null
     constructor(headNode = null) {
         this.headNode = headNode;
